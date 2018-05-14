@@ -1,0 +1,160 @@
+html {
+	font-family:sans-serif;
+}
+body {
+	background-color:white;
+	margin:0;
+
+}
+
+div.logo {
+	display:block;
+	padding:13px;
+}
+
+div.topnav ul {
+	display:none;
+}
+
+div.mob-hd-container {
+	display:block;
+	text-align:center;
+	float:right;
+	margin-right:45%;
+}
+
+div.open-icon {
+	color:white;
+}
+
+div.open-icon:hover, div.open-icon:active {
+	transform: rotate(90deg);
+}
+
+div.mob-sidnav-open {
+	display:block;
+	text-align:left;
+	padding-left:4rem;
+}
+
+div.mobilehead {
+	background-color:#fb8b1e;
+	padding:13px;
+	width:100%;
+}
+
+div.mob-sidnav-container {
+	height:100%;
+	width: 0;
+	position:fixed;
+	z-index:1;
+	background-color:#fb8b1e;
+	overflow-x:hidden;
+	padding-top:60px;
+	transition:0.5s;
+	top:0;
+}
+
+div.mob-sidnav-container a {
+	padding: 8px 8px 8px 32px;
+	text-decoration:none;
+	font-size:25px;
+	color:#eee;
+	display:block;
+	transition:0.3s;
+}
+
+div.mob-sidnav-container a:hover {
+	background-color:#faa857;
+	color:white;
+}
+
+#mob-sidnav-container #active {
+	background-color:#faa857;
+	color:white;
+}
+
+#closebtn {
+	position:absolute;
+	top:0;
+	right: 25px;
+	font-size:36px;
+	margin-left:50px;
+	background-color:transparent;!important
+}
+
+div.main {
+		padding:0 0 50px 0;
+		margin-left:50px;
+		margin-right:50px;
+}
+	
+h1 {
+	font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:black;
+	text-align:center;
+	display:block;
+	margin:24px 0;
+}
+
+div.data-table-container {
+	padding:10px 0;
+	border-top: 20px solid #faa857;
+}
+
+div.column {
+	text-align:center;
+}
+
+div.data-table iframe {
+	width:100%;
+	height:35em;
+}
+
+div.bottomnav  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#eee;
+	position: fixed;
+	bottom:0px;
+	right:30px;
+}
+
+div.bottomnav a {
+	text-decoration:none;
+	padding:20px 20px;
+	text-align:center;
+	text-decoration:none;
+	color:#eee;
+	background-image: url("../images/nav bar.png");
+	background-position:center;
+	background-size:160%;
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+div.bottomnav a:hover, div.bottom a:active {
+	background-image: url("../images/nav bar-act.png");
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+footer {
+	display:block;
+	margin:0 50px 50px 50px;
+	border-top:1px solid black;
+	transition: 0.5s;
+	
+
+}
+
+div.f1 a:link, div.f2 a:link {
+	text-decoration:none;
+}
+	
+#change {
+	float:right;
+}

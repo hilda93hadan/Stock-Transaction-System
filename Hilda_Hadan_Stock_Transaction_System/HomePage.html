@@ -1,0 +1,129 @@
+ <!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>Home Page</title>
+	<link href="css/HomePage-desktop.css" rel="stylesheet" media="screen and (min-width:845px)">
+	<link href="css/HomePage-mobile.css" rel="stylesheet" media="screen and (max-width:844px)">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.css">
+	<script src="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.js"></script>
+	<script type="text/javascript" src="js/HomePage.js" media="screen and (max-width:844px)"></script>
+</head>
+
+<body>
+	<div class="topnav">
+		<ul>
+			<li>
+				<div class="logo">
+					<img src="images/logo.png" alt="Logo" title="Stock Transaction System" style="width:100px;">
+				</div>		
+			</li>
+			<li class="active"><a href="HomePage.html">Home</a></li>
+			<li><a href="NewRecordPage.php" target="_self">New</a></li>
+			<li><a href="AllRecordsPage.html" target="_self">History</a></li>
+			<li><a href="#">Search</a></li>
+			<li><a href="#">Commodities</a></li>
+			<li><a href="#">Futures</a></li>
+			<li class="right"><a href="#">About Us</a></li>
+		</ul>
+		<div class="mobilehead">
+			<div class="mob-sidnav-open">
+				<span id="mob-sidnav-open">
+					<div data-icon="ei-navicon" class="open-icon" id="open-icon"></div>
+				</span>
+				<div class="mob-hd-container">
+					<img src="images/logo.png" alt="Logo" title="Stock Transaction System" style="width:100px;">
+				</div>
+			</div>
+		</div>
+		<div id="mob-sidnav-container" class="mob-sidnav-container">
+			<a href="javascript:void(0)" id="closebtn">&times;</a>
+			<a href="HomePage.html" target="_self" id="active">Home</a>
+			<a href="NewRecordPage.php" target="_self">New</a>
+			<a href="AllRecordsPage.html" target="_self">History</a>
+			<a href="#">Search</a>
+			<a href="#">Commodities</a>
+			<a href="#">Futures</a>
+			<a href="#">About Us</a>
+		</div>
+	</div>
+	<div class="sidenav" id="sidenav">
+	<nav>
+		<div class="bh3">
+			<h3>Stocks</h3>
+		 </div>
+         <div class="stocknews">
+			<article class="artic1">
+				<time>
+					<img src="images/clock.PNG" style="width:15px;height=15px;"> 3 hours ago
+				</time>
+				<div class="news1">
+					<a href="#"> Snap Skeptics May Drive $1 Billion of Short Sales Within a Week</a>
+				</div>
+			</article>
+			<article class="artc2">
+				<time>
+					<img src="images/clock.PNG" style="width:15px;height=15px;"> 3:59 AM
+				</time>
+				<div class="news2">
+					<a href="#">China Roils South Korean Stocks With News of Travel Curbs</a>
+				</div>
+			</article>
+			<article class="artc3">
+				<time>
+					<img src="images/clock.PNG" style="width:15px;height=15px;"> 2:43 AM
+				</time>
+				<div class="news3">
+					<a href="#">Would's Biggest Pension Fund Posts Record $92 Billion Gain</a>
+				</div>
+			</article>
+			</div>
+			<div class="searchbar">
+				<div class="searchbar1">
+					<form>
+						<input class="infield" type="text" name="search" placeholder="Search"><div data-icon="ei-search"></div>
+					<form>
+				</div>
+			</div>
+	</nav>
+	</div>
+	<div class="main" id="main">
+		<h1>Stock Transaction System</h1>
+		<div class="choice">
+			<form>
+				<fieldset>
+					<legend>Please Select an Option:</legend>
+					<p>
+						<a href="NewRecordPage.php">Add a New Record</a>
+					</p>
+					<p>
+						<a href="AllRecordsPage.html">View Transaction History</a>
+					</p>
+				</fieldset>
+			</form> 
+		</div>
+	</div>
+	<div class="bottomnav">
+		<nav>
+		<a href="#"><img src="images/question-mark.png" style="width:18px;height:18px;">&nbsp;Help</a>
+		</nav>
+	</div>
+
+	<footer id="footer">
+	<br>
+		<ul>
+			<div class="f1">
+				<a href="#" style="float:left;">Term of Service</a>&nbsp;|&nbsp;<a href="#">Trademarks</a>&nbsp;|&nbsp;<a href="#">Privacy Policy</a>
+				<div style="float:right;"><a href="#">Careers</a>&nbsp;|&nbsp;<a href="#">Advertise</a></div>
+			</div>
+			<br>
+			<div class="f2">	
+				<em>&copy; 2017 XXXXXXXXX. All Right Reserved</em>
+				<div style="float:right;"><a href="#">Website Feedback</a></div>
+			</div>
+		</ul>
+</body>
+
+</html>

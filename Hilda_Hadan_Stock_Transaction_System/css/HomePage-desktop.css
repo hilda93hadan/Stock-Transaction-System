@@ -1,0 +1,174 @@
+html {
+	font-family:sans-serif;
+}
+body {
+	background-color:white;
+	margin:0;
+
+}
+
+div.logo {
+	display:block;
+	padding:13px;
+}
+
+div.mobilehead {
+	display:none;
+}
+
+div.topnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	background-color:#fb8b1e;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#eee;
+	position: fixed;
+	top:0;
+	width:100%;
+}
+
+div.topnav li {
+	float:left;
+}
+
+div.topnav li.right {
+	float:right;
+}
+
+div.topnav li a {
+	display:block;
+	padding:14px 16px;
+	text-align:center;
+	text-decoration:none;
+	color:#eee;
+}
+
+div.topnav li.active, div.topnav li a:hover {
+	background-color:#fba149;
+	color:white;
+}	
+
+div.mob-sidnav-container, div.mobilehead {
+	display:none;
+}
+
+div.main {
+		padding:100px 0 100px 0;
+		margin-left:26em;
+		margin-right:50px;
+}
+	
+h1 {
+	font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:black;
+	text-align:center;
+	display:block;
+	margin:24px 0;
+}
+
+div.choice {
+	border-top: 20px solid #faa857;
+	padding:35px 0;
+}
+
+h3 {
+	font-size:2.25rem;
+}
+
+div.sidenav {
+  border-top: 20px solid #fb8b1e;
+  padding: 0.5em;  
+  width: 20em;
+  float: left;
+  margin-top:100px;
+  margin-left:50px;
+  
+}
+
+div.stocknews {
+	display:block;	
+	padding-right:0.75rem;
+	margin-bottom:35px;
+}
+
+div.searchbar {
+	border:20px solid #faa857;
+	margin-bottom:35px;
+}
+
+div.searchbar1 {
+	padding:1rem 1.25rem;
+}
+
+div.searchbar input[type=text] {
+	font-size:1.2em;
+	border:none;
+	border-bottom:1px solid #fb8b1e;
+	width:85%;
+}
+
+div.sidenav article {
+	display:inline-block;
+	border-bottom:1px solid gray;
+	padding:0.25rem 0;
+}
+
+div.stocknews time {
+	font-size:80%;
+}
+
+div.sidenav a {
+	text-decoration:none;
+	color: black;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:90%;
+}
+
+
+div.bottomnav  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#eee;
+	position: fixed;
+	bottom:30px;
+	right:30px;
+}
+
+div.bottomnav a {
+	text-decoration:none;
+	padding:20px 20px;
+	text-align:center;
+	text-decoration:none;
+	color:#eee;
+	background-image: url("../images/nav bar.png");
+	background-position:center;
+	background-size:160%;
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+div.bottomnav a:hover, div.bottom a:active {
+	background-image: url("../images/nav bar-act.png");
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+footer {
+	display:block;
+	margin:0 50px 50px 50px;
+	border-top:1px solid black;
+	clear:left;
+	
+
+}
+
+div.f1 a:link, div.f2 a:link {
+	text-decoration:none;
+}
+
+	

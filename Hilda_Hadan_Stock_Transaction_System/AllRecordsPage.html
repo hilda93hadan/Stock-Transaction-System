@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>AllRecordPage</title>
+	<link href="css/AllRecordsPage-desktop.css" rel="stylesheet" media="screen and (min-width:845px)">
+	<link href="css/AllRecordsPage-mobile.css" rel="stylesheet" media="screen and (max-width:844px)">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.css">
+	<script src="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.js"></script>
+	<script type="text/javascript" src="js/AllRecordsPage.js"></script>
+</head>
+
+<body>
+	<div class="topnav">
+		<ul>
+			<li>
+				<div class="logo">
+					<img src="images/logo.png" alt="Logo" title="Stock Transaction System" style="width:100px;">
+				</div>		
+			</li>
+			<li><a href="HomePage.html" target="_self">Home</a></li>
+			<li><a href="NewRecordPage.php" target="_self">New</a></li>
+			<li class="active"><a href="AllRecordsPage.html">History</a></li>
+			<li><a href="#">Search</a></li>
+			<li><a href="#">Commodities</a></li>
+			<li><a href="#">Futures</a></li>
+			<li class="right"><a href="#">About Us</a></li>
+		</ul>
+		<div class="mobilehead">
+			<div class="mob-sidnav-open">
+				<span id="mob-sidnav-open">
+					<div data-icon="ei-navicon" class="open-icon" id="open-icon"></div>
+				</span>
+				<div class="mob-hd-container">
+					<img src="images/logo.png" alt="Logo" title="Stock Transaction System" style="width:100px;">
+				</div>
+			</div>
+		</div>
+		<div id="mob-sidnav-container" class="mob-sidnav-container">
+			<a href="javascript:void(0)" id="closebtn">&times;</a>
+			<a href="HomePage.html" target="_self">Home</a>
+			<a href="NewRecordPage.php" target="_self">New</a>
+			<a href="AllRecordsPage.html" id="active">History</a>
+			<a href="#">Search</a>
+			<a href="#">Commodities</a>
+			<a href="#">Futures</a>
+			<a href="#">About Us</a>
+		</div>
+	</div>
+	<div class="main" id="main">
+		<h1>Transaction History</h1>
+		<div class="data-table-container">
+			<div  class="data-table">
+				<br>
+					<iframe src="historypages/DataTable0.php" id="data-window"></iframe>
+			</div>
+	</div>
+	<div class="bottomnav">
+		<nav>
+		<a href="#"><img src="images/question-mark.png" style="width:18px;height:18px;">&nbsp;Help</a>
+		</nav>
+	</div>
+
+	<footer id="footer">
+	<br>
+		<ul>
+			<div class="f1">
+				<a href="#" style="float:left;">Term of Service</a>&nbsp;|&nbsp;<a href="#">Trademarks</a>&nbsp;|&nbsp;<a href="#">Privacy Policy</a>
+				<div style="float:right;"><a href="#">Careers</a>&nbsp;|&nbsp;<a href="#">Advertise</a></div>
+			</div>
+			<br>
+			<div class="f2">	
+				<em>&copy; 2017 XXXXXXXXX. All Right Reserved</em>
+				<div style="float:right;"><a href="#">Website Feedback</a></div>
+			</div>
+		</ul>
+</body>
+
+</html>
